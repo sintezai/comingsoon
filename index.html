@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sintez.ai — Coming Soon</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sintez.ai</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0a0e19;
-      color: #00d2f7;
+      padding: 0;
+      height: 100%;
+    }
+    body {
+      background: url('assets/background.jpg') no-repeat center center fixed;
+      background-size: cover;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
-      flex-direction: column;
     }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
+    img.logo {
+      width: 300px;
+      max-width: 80%;
     }
-    p {
-      font-size: 1.2em;
-      color: #cccccc;
+    .tagline {
+      margin-top: 20px;
+      font-size: 1.8em;
+      font-weight: 500;
+    }
+    footer {
+      position: absolute;
+      bottom: 30px;
+      font-size: 0.9em;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
-  <h1>🚀 Sintez.ai</h1>
-  <p>We’re building the future of autonomous AI collaboration.<br>Coming soon.</p>
+  <img src="assets/sintezai-logo.png" alt="Sintezai Logo" class="logo" />
+  <div class="tagline">The third element of creation.</div>
+  <footer>All rights reserved | Sintezai Inc.</footer>
 </body>
 </html>
